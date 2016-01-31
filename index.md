@@ -1,0 +1,55 @@
+---
+title       : find the RetiRement coRpus using R!
+subtitle    : A brief presentation
+author      : Vasudevan Surendran
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Inputs
+
+* What would be the monthly income required on retirement - as numeric input
+
+  + Amount required after retirement on monthly basis assuming present expense rate.
+
+* Retirement Date - a Date input
+
+  +  Date of retirement - Year of retirement date is expected and the change in values of amount due to ignored days is neglected
+  
+* Expected Inflation Rate - as slider input
+
+  + What would be the expected average inflation rate averaged between now and retirement age - in percentage
+  
+* Expected Interest Rate - as slider input
+
+  + What would be the expected interest rate for savings instrument in retirement year - in percentage
+
+
+---
+
+## Assumptions in calculation
+
+1. The corpus is only used to generate interest and the corpus itself is untouched
+2. The average inflation and interest rate is accurate
+3. The monthly money needed does not increase or decrease after retirement
+
+---
+
+## Possible improvements
+
+1. Incorporate life expectancy calculation
+2. Additional expenses can be accounted for
+3. Provide ways to accumulate the corpus
+
+---
+
+## References
+
+1. [jagoinvestor] (http://www.jagoinvestor.com/2009/07/6-steps-of-doing-retirement-planning-by.html)
+2. [rmarkdown] (http://shiny.rstudio.com/articles/rmarkdown.html)
+3. [ddp] (https://leanpub.com/ddp)

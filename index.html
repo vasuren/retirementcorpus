@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>find the RetiRement coRpus using R!</title>
+  <meta charset="utf-8">
+  <meta name="description" content="find the RetiRement coRpus using R!">
+  <meta name="author" content="Vasudevan Surendran">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>find the RetiRement coRpus using R!</h1>
+    <h2>A brief presentation</h2>
+    <p>Vasudevan Surendran<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Inputs</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>What would be the monthly income required on retirement - as numeric input</p>
+
+<ul>
+<li>Amount required after retirement on monthly basis assuming present expense rate.</li>
+</ul></li>
+<li><p>Retirement Date - a Date input</p>
+
+<ul>
+<li> Date of retirement - Year of retirement date is expected and the change in values of amount due to ignored days is neglected</li>
+</ul></li>
+<li><p>Expected Inflation Rate - as slider input</p>
+
+<ul>
+<li>What would be the expected average inflation rate averaged between now and retirement age - in percentage</li>
+</ul></li>
+<li><p>Expected Interest Rate - as slider input</p>
+
+<ul>
+<li>What would be the expected interest rate for savings instrument in retirement year - in percentage</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Assumptions in calculation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>The corpus is only used to generate interest and the corpus itself is untouched</li>
+<li>The average inflation and interest rate is accurate</li>
+<li>The monthly money needed does not increase or decrease after retirement</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Possible improvements</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Incorporate life expectancy calculation</li>
+<li>Additional expenses can be accounted for</li>
+<li>Provide ways to accumulate the corpus</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li><a href="http://www.jagoinvestor.com/2009/07/6-steps-of-doing-retirement-planning-by.html">jagoinvestor</a></li>
+<li><a href="http://shiny.rstudio.com/articles/rmarkdown.html">rmarkdown</a></li>
+<li><a href="https://leanpub.com/ddp">ddp</a></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Inputs'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Assumptions in calculation'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Possible improvements'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='References'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
